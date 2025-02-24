@@ -38,18 +38,18 @@ Configuration
 
 Usage
 
-    Start the containers:
+Start the containers:
     ```sh
     docker-compose up -d
     ```
-    Access WordPress: Open your browser and visit: http://localhost
+Access WordPress: Open your browser and visit: http://localhost
 
-    Stop the containers:
+Stop the containers:
     ```sh
     docker-compose down
     ```
 
-    Volumes
+Volumes
 
 This setup uses Docker volumes to persist data:
 
@@ -66,11 +66,11 @@ You can modify the docker-compose.yml file to:
 
 Troubleshooting
 
-    To view logs, use:
+To view logs, use:
     ```sh
     docker-compose logs -f
     ```
-    To access the WordPress container shell:
+To access the WordPress container shell:
     ```sh
     docker exec -it <container_name> bash
     ```
