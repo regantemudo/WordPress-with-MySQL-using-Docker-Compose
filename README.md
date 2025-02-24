@@ -65,12 +65,14 @@ You can modify the docker-compose.yml file to:
     Add additional services (like phpMyAdmin).
 
 Troubleshooting
-
 To view logs, use:
+
     ```sh
     docker-compose logs -f
     ```
+    
 To access the WordPress container shell:
+
     ```sh
     docker exec -it <container_name> bash
     ```
