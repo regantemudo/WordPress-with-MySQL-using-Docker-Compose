@@ -68,13 +68,13 @@ Troubleshooting
 To view logs, use:
 
 ```sh
-    docker-compose logs -f
+docker-compose logs -f
 ```
     
 To access the WordPress container shell:
 
 ```sh
-    docker exec -it <container_name> bash
+docker exec -it <container_name> bash
 ```
     
     
