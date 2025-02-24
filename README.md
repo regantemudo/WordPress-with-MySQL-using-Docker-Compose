@@ -67,14 +67,14 @@ You can modify the docker-compose.yml file to:
 Troubleshooting
 To view logs, use:
 
-    ```sh
+```sh
     docker-compose logs -f
-    ```
+```
     
 To access the WordPress container shell:
 
-    ```sh
+```sh
     docker exec -it <container_name> bash
-    ```
+```
     
     
